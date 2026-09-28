@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parcela El Monte | Arriendo de parcela para cumpleaños y eventos</title>
+  <meta name="description" content="Parcela de 5.000 m² en El Monte con piscina, quincho, cancha de fútbol y casa de 300 m². Cumpleaños, asados y eventos de empresa a 45 minutos de Santiago.">
+  <meta property="og:title" content="Parcela El Monte · Eventos y cumpleaños">
+  <meta property="og:description" content="Piscina, quincho, cancha y casa de 300 m² solo para tu grupo. Hasta 120 personas.">
+  <meta property="og:image" content="img/pool1.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Ccircle cx='18' cy='18' r='18' fill='%23103b2c'/%3E%3Ccircle cx='24' cy='12' r='5' fill='%23ffc53d'/%3E%3Cpath d='M6 25c4-6 8-6 12-2s8 4 12-2' stroke='%23ffc53d' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="logo">
+      <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true"><circle cx="18" cy="18" r="17" stroke="currentColor" stroke-width="2"/><path d="M7 24c4-6 8-6 11-2s7 4 11-2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="12" r="4" fill="currentColor"/></svg>
+      <span>Parcela El Monte</span>
+    </a>
+    <button class="nav__toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav id="menu" class="nav__menu">
+      <a href="#espacios">Espacios</a>
+      <a href="#cumples">Cumpleaños</a>
+      <a href="#paquetes">Paquetes</a>
+      <a href="#reservar">Cómo reservar</a>
+      <a href="#contacto" class="btn btn--accent btn--sm">Reservar fecha</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="inicio" class="hero">
+    <img class="hero__img" src="img/pool1.jpg" alt="Piscina rodeada de árboles en una parcela" fetchpriority="high">
+    <div class="hero__content wrap">
+      <span class="pill">El Monte · a 45 min de Santiago</span>
+      <h1>Celebra en grande.<br><em>5.000 m²</em> para tu evento.</h1>
+      <p class="hero__lead">Piscina, quincho, cancha de fútbol y casa de 300 m² solo para tu grupo. Cumpleaños, asados, bautizos y eventos de empresa hasta 120 personas.</p>
+      <div class="hero__cta">
+        <a class="btn btn--accent btn--lg js-wa" href="#" data-msg="Hola, quiero consultar disponibilidad para un evento en la parcela.">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/></svg>
+          Consultar por WhatsApp
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#paquetes">Ver paquetes y precios</a>
+      </div>
+    </div>
+    <div class="sticker" aria-hidden="true">
+      <span>Temporada</span><strong>2026–27</strong><span>¡Reserva tu fecha!</span>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="La parcela en números">
+    <div class="wrap stats__grid">
+      <div><strong>5.000 m²</strong><span>de parcela privada</span></div>
+      <div><strong>300 m²</strong><span>de casa con baños y cocina</span></div>
+      <div><strong>Piscina</strong><span>de octubre a abril</span></div>
+      <div><strong>Cancha</strong><span>de fútbol en pasto</span></div>
+      <div><strong>120</strong><span>personas como máximo</span></div>
+    </div>
+  </section>
+
+  <section id="espacios" class="section wrap">
+    <div class="section__head">
+      <h2>Todo lo que tu evento necesita, en un solo lugar.</h2>
+      <p>La parcela es solo para tu grupo durante el día. Llegas, montamos y disfrutas.</p>
+    </div>
+    <div class="spaces">
+      <article class="space space--wide">
+        <img src="img/pool1.jpg" alt="Piscina" loading="lazy">
+        <div class="space__card"><h3>Piscina</h3><p>Con cerco de seguridad, reposeras y sombra.</p></div>
+      </article>
+      <article class="space">
+        <img src="img/asado.jpg" alt="Asado al palo en el pasto" loading="lazy">
+        <div class="space__card"><h3>Quincho y asados</h3><p>Parrilla, mesas y sillas para todo tu grupo.</p></div>
+      </article>
+      <article class="space space--pitch">
+        <svg viewBox="0 0 500 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="500" height="420" fill="#2f7a4a"/><g fill="#2a6f43"><rect y="0" width="500" height="60"/><rect y="120" width="500" height="60"/><rect y="240" width="500" height="60"/><rect y="360" width="500" height="60"/></g><g fill="none" stroke="#e9f3e4" stroke-width="4" opacity=".9"><rect x="40" y="40" width="420" height="340"/><line x1="250" y1="40" x2="250" y2="380"/><circle cx="250" cy="210" r="52"/><rect x="40" y="130" width="70" height="160"/><rect x="390" y="130" width="70" height="160"/></g><circle cx="318" cy="170" r="14" fill="#fbf5e8"/></svg>
+        <div class="space__card"><h3>Cancha de fútbol</h3><p>Para el partido de la empresa o de los cabros chicos.</p></div>
+      </article>
+      <article class="space space--wide">
+        <img src="img/lights.jpg" alt="Jardín de noche con guirnaldas de luces" loading="lazy">
+        <div class="space__card"><h3>Noches bajo las luces</h3><p>Guirnaldas, música y la casa de 300 m² si refresca.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="cumples" class="kids">
+    <div class="kids__text">
+      <span class="pill pill--light">Cumpleaños Kids</span>
+      <h2>Ellos saltan. Tú descansas.</h2>
+      <p>Un día completo de juegos al aire libre con todo incluido. Tú traes la torta.</p>
+      <ul class="checks">
+        <li>Cama elástica con malla</li>
+        <li>Mesa de ping pong</li>
+        <li>Taca-taca</li>
+        <li>Cancha y balones</li>
+        <li>Piscina para todos</li>
+        <li>Inflable (adicional)</li>
+      </ul>
+      <a class="btn btn--dark js-wa" href="#" data-msg="Hola, quiero cotizar un cumpleaños infantil en la parcela.">Cotizar un cumpleaños</a>
+    </div>
+    <div class="collage">
+      <img class="collage__a" src="img/kids.jpg" alt="Niños jugando en un cumpleaños en el jardín" loading="lazy">
+      <img class="collage__b" src="img/tramp.jpg" alt="Niños en una cama elástica" loading="lazy">
+      <img class="collage__c" src="img/pingpong.jpg" alt="Mesa de ping pong al aire libre" loading="lazy">
+    </div>
+  </section>
+
+  <section id="paquetes" class="section wrap">
+    <div class="section__head section__head--center">
+      <h2>Elige tu paquete</h2>
+      <p>Precios de temporada alta (octubre a marzo). En temporada baja, desde $300.000.</p>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <h3>Día de Parcela</h3>
+        <p class="plan__desc">Asados, cumpleaños de adultos y juntas familiares.</p>
+        <p class="plan__price">$450.000 <small>/ día</small></p>
+        <ul><li>Hasta 40 personas</li><li>11:00 a 20:00 h</li><li>Quincho, mesas y sillas</li><li>Piscina y cancha</li><li>Baños y cocina de la casa</li></ul>
+        <a class="btn btn--outline js-wa" href="#" data-msg="Hola, quiero reservar el paquete Día de Parcela.">Reservar</a>
+      </article>
+      <article class="plan plan--featured">
+        <span class="plan__badge">El más pedido</span>
+        <h3>Cumpleaños Kids</h3>
+        <p class="plan__desc">Todo el día de juegos para los niños y descanso para los papás.</p>
+        <p class="plan__price">$550.000 <small>/ día</small></p>
+        <ul><li>25 niños + 25 adultos</li><li>Cama elástica, ping pong y taca-taca</li><li>Piscina</li><li>Anfitrión durante el evento</li><li>Todo lo del Día de Parcela</li></ul>
+        <a class="btn btn--accent js-wa" href="#" data-msg="Hola, quiero reservar el paquete Cumpleaños Kids.">Reservar</a>
+      </article>
+      <article class="plan">
+        <h3>Evento Premium</h3>
+        <p class="plan__desc">Empresas, bautizos, matrimonios y aniversarios.</p>
+        <p class="plan__price">$1.200.000</p>
+        <ul><li>Hasta 120 personas</li><li>Hasta las 02:00 h</li><li>Mantelería, luces y sonido</li><li>Aseo final incluido</li><li>Banquetería con socios (adicional)</li><li>Emitimos factura</li></ul>
+        <a class="btn btn--outline js-wa" href="#" data-msg="Hola, quiero cotizar un Evento Premium.">Cotizar</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="reservar" class="steps">
+    <div class="wrap">
+      <h2>Reservar es simple</h2>
+      <ol class="steps__list">
+        <li><span>01</span><strong>Escríbenos</strong><p>Cuéntanos la fecha, el tipo de evento y cuántos son.</p></li>
+        <li><span>02</span><strong>Visita la parcela</strong><p>Ven a conocerla un fin de semana, sin compromiso.</p></li>
+        <li><span>03</span><strong>Asegura tu fecha</strong><p>Con el 50% de abono y el contrato firmado.</p></li>
+        <li><span>04</span><strong>¡A celebrar!</strong><p>Llegas y todo está montado. Nosotros ordenamos.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contacto" class="section wrap contact">
+    <div class="contact__text">
+      <h2>Los sábados de verano se agotan.</h2>
+      <p>Pregunta por tu fecha hoy. Respondemos por WhatsApp en menos de una hora.</p>
+      <a class="btn btn--wa btn--lg js-wa" href="#" data-msg="Hola, quiero consultar disponibilidad en la parcela.">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/></svg>
+        Escríbenos por WhatsApp
+      </a>
+      <dl class="contact__data">
+        <div><dt>Dirección</dt><dd>[Camino / parcela], El Monte, Región Metropolitana</dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://instagram.com/tuparcela" target="_blank" rel="noopener">@[tuparcela]</a></dd></div>
+      </dl>
+    </div>
+    <form class="form" id="form-consulta" novalidate>
+      <h3>Consulta disponibilidad</h3>
+      <label for="f-nombre">Nombre</label>
+      <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required>
+      <div class="form__row">
+        <div>
+          <label for="f-fecha">Fecha</label>
+          <input id="f-fecha" name="fecha" type="date" required>
+        </div>
+        <div>
+          <label for="f-personas">Personas</label>
+          <input id="f-personas" name="personas" type="number" min="1" max="120" placeholder="40" required>
+        </div>
+      </div>
+      <label for="f-tipo">Tipo de evento</label>
+      <select id="f-tipo" name="tipo">
+        <option>Cumpleaños infantil</option>
+        <option>Cumpleaños o asado</option>
+        <option>Evento de empresa</option>
+        <option>Bautizo o matrimonio</option>
+        <option>Otro</option>
+      </select>
+      <p class="form__error" role="alert" hidden>Completa nombre, fecha y número de personas.</p>
+      <button class="btn btn--dark" type="submit">Enviar consulta por WhatsApp</button>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <strong>Parcela El Monte</strong>
+    <span>Cumpleaños · Asados · Empresas · Bautizos</span>
+  </div>
+  <p class="wrap footer__credits">
+    Fotos de ejemplo de Wikimedia Commons:
+    <a href="https://commons.wikimedia.org/wiki/File:Le_Mas_de_Fauchon_20170814_4.jpg" target="_blank" rel="noopener">piscina</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Asado_argentino_a_la_estaca_(97122).jpg" target="_blank" rel="noopener">asado</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:DFC_4625_Twinkling_string_lights_guide_the_way_to_a_cozy_garden_caf%C3%A9_on_a_warm_evening.jpg" target="_blank" rel="noopener">luces</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Trampoline-MAnabe-garden2016.jpg" target="_blank" rel="noopener">cama elástica</a> (CC BY-SA 4.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Children_playing_outdoors_on_birthday_party_in_garden_in_spring._Back_view_of_children._(51159149625).jpg" target="_blank" rel="noopener">cumpleaños</a> (CC BY 2.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Clay_Park_Ping_Pong_Table.jpg" target="_blank" rel="noopener">ping pong</a> (CC0).
+  </p>
+</footer>
+
+<a class="wa-float js-wa" href="#" data-msg="Hola, quiero consultar por la parcela." aria-label="Escribir por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/></svg>
+</a>
+
+</body>
+</html>
