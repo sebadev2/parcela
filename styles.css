@@ -209,3 +209,19 @@ a { color: var(--green); }
   .sticker { animation: none; }
   .btn, .space img { transition: none; }
 }
+
+/* Espacios en tercios y galería de fotos reales */
+.space--third { grid-column: span 4; height: 380px; }
+.gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 240px; gap: 16px; }
+.gallery img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+.gallery__big { grid-column: span 2; grid-row: span 2; }
+.gallery__tall { grid-row: span 2; }
+@media (max-width: 1000px) {
+  .space--third { grid-column: span 12; height: 340px; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 200px; }
+}
+@media (max-width: 760px) {
+  .space--third { height: 280px; }
+  .gallery { grid-auto-rows: 150px; gap: 10px; }
+  .gallery img { border-radius: 14px; }
+}
